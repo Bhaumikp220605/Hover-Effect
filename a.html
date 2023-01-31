@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: -webkit-flex;
+            -webkit-flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: grey;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        div {
+            flex: 1;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="mou.jpg">
+        </div>
+        <div class="image">
+            <img src="mou.jpg" />
+        </div>
+        <div class="image">
+            <img src="mou.jpg" />
+        </div>
+    </div>
+</body>
+</html>
